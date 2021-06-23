@@ -7,6 +7,6 @@ describe("showNumbers", () => {
     assert.strictEqual(showNumbers.length, 1);
   });
   it('should return “["0 EVEN", "1 ODD", "2 EVEN"]” if argument is 2', () => {
-    assert.strictEqual(showNumbers(2), ["0 EVEN", "1 ODD", "2 EVEN"]);
+    assert(showNumbers(2), ["0 EVEN", "1 ODD", "2 EVEN"]);
   });
 });
